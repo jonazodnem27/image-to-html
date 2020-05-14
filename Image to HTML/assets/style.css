@@ -1,0 +1,320 @@
+.myHeader{
+	background: #3d4a55;
+	padding-top: 10px;
+}
+
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+.myContainer{
+	max-width: 1000px;
+	margin: auto;
+	padding:0 10px;
+}
+
+.myFlex{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.myFlex ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+
+.myFlex ul a{
+	color: white;
+	display: inline-block;
+	padding: 20px 15px;
+	font-size: 14px;
+	text-decoration: unset;
+	text-transform: uppercase;
+}
+
+.myFlex ul a.current{
+	background: #2a7fb9;
+	border-radius: 3px 3px 0 0;
+}
+
+.myHeroBanner{
+	padding: 85px 0 165px;
+	background-image: url(banner.jpg);
+}
+
+.bg{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.myHeroBanner .myBannerContent{
+	max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.myHeroBanner .myBannerContent h1{
+	margin: 0;
+    font-size: 38px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.myHeroBanner .myBannerContent p{
+	margin: 0;
+    margin-bottom: 60px;
+    font-size: 23px;
+    color: white;
+}
+
+.myHeroBanner .myBannerContent a{
+	text-decoration: unset;
+	color: white;
+	border: 2px solid white;
+	padding: 12px 10px;
+	font-size: 15px;
+}
+
+.myAbout{
+    background: #eae6e3;
+    padding: 50px 0;
+}
+
+.myAbout .myAboutContent{
+	max-width: 600px;
+    margin: auto;
+}
+
+.myAbout .myAboutContent p{
+	font-size: 26px;
+	text-align: center;
+	color: #6f7b81;
+	line-height: 32px;
+	margin: 0;
+}
+
+.myAbout .myAboutContent h4{
+	margin: 0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 33px;
+	margin-top: 10px;
+}
+
+.myAbout .myAboutContent .filled{
+	background: #2ca7cc;
+	color: white;
+	padding: 2px 8px 2px;
+	font-weight: 900;
+}
+
+.myAbout .myAboutContent .colorBlue{
+	color: #3fa4bf;
+	font-weight: 900;
+}
+
+
+.myFeatures{
+	background: #f0f0f0;
+	padding: 60px 0 30px;
+}
+
+.myFeatures .featuresCard{
+	text-align: center;
+	background: #e3e1e2;
+	padding: 15px;
+	border-radius: 7px;
+	position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.myFeatures .featuresCard img{
+	background: #f6eff1;
+    padding: 10px;
+    border-radius: 100%;
+    width: 30px;
+}
+
+.myFeatures .featuresCard h3{
+	margin: 10px 0 0;
+	color: #5d5d5d;
+}
+
+.myFeatures .featuresCard span{
+	color: #28a6ca;
+	font-weight: 800;
+	font-size: 14px;
+}
+
+.myFeatures .featuresCard p{
+	font-size: 13px;
+}
+
+.myFeatures .featuresCard .popularFeature{
+	position: absolute;
+	right: -37px;
+	top: 22px;
+	transform: rotate(43deg);
+	background: #e44d3f;
+	padding: 4px 34px;
+	color: white;
+}
+
+
+.myNewWorks{
+	padding: 60px 0 80px;
+    background: #f0f0f0;
+}
+
+.myNewWorks .leftColumn{
+    max-width: 300px;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.myNewWorks .leftColumn h3{
+	font-size: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.myNewWorks .leftColumn a{
+	background: #2ba7ca;
+    color: white;
+    text-decoration: unset;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.myNewWorks .rightColumn .boxCard a{
+	text-decoration: unset;
+	color: black;
+	display: block;
+}
+
+.myNewWorks .rightColumn .boxCard{
+	margin: 0 2px;
+	width: 100%;
+}
+
+.myNewWorks .rightColumn .boxCard img{
+	width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.myNewWorks .rightColumn .boxCard .contentBoxArea{
+	background: #34495c;
+	padding: 15px;
+	text-align: center;
+    margin-top: -5px;
+	position: relative;
+	color: #ffffffb5;
+}
+
+.myNewWorks .rightColumn{
+	width: 100%;
+}
+
+.myNewWorks .rightColumn .boxCard .contentBoxArea h5{
+	margin: 0;
+	color: white;
+	font-size: 14px;
+}
+
+.myNewWorks .rightColumn .boxCard .contentBoxArea p{
+	font-size: 12px;
+}
+
+.myNewWorks .rightColumn .boxCard .contentBoxArea:before{
+	content: '';
+    position: absolute;
+    border: 10px solid #34495b;
+    bottom: -18px;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+	left: 0;
+	right: 0;
+	max-width: 0px;
+	margin: auto;
+}
+
+.getInTouch a i{
+    color: #5499c7;
+    font-size: 40px;
+    width: 55px;
+}
+
+.getInTouch p{
+	color:#ffffff75;
+}
+
+.getInTouch h2{
+    margin: 0;
+    color: #ffffff75;
+    margin-bottom: 30px;
+}
+
+.getInTouch{
+    text-align: center;
+    background: #2a80b9;
+    padding: 60px 0 55px;
+    color: white;
+}
+
+.getInTouchContent{
+	max-width: 600px;
+	margin: auto;
+}
+
+.getInTouchContent .myFlex{
+	justify-content: center;
+}
+
+.mySubFooter {
+	padding: 30px 0;
+	background: #313b44;
+}
+
+.mySubFooter p{
+	margin: 0;
+	text-align: center;
+	color: #ffffff66;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
